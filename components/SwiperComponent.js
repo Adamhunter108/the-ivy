@@ -14,6 +14,7 @@ export default function SwiperComponent() {
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
+          effect={"flip"}
           autoplay={{
               delay: 2500,
               disableOnInteraction: false,
