@@ -11,6 +11,7 @@ import ThreeColCard from '../components/ThreeColCard'
 import CalDisclosure from '../components/CalDisclosure'
 import ClassImages from '../components/ClassImages'
 import Contact from '../components/Contact'
+import SwiperComponent from '../components/SwiperComponent'
 
 
 export default function Home() {
@@ -45,6 +46,8 @@ export default function Home() {
         <ThreeColCard />
 
         {/* <Contact /> */}
+
+        <SwiperComponent />
         
       </main>
 

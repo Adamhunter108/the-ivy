@@ -30,6 +30,12 @@ export default function Document() {
                 {/* GOOGLE FONT CDN */}
                 <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet" />
 
+                {/* SWIPER CSS */}
+                <link
+                    rel="stylesheet"
+                    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+                />  
+
         </Head>
         <body>
             <Main />
