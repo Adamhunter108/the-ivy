@@ -9,7 +9,14 @@ import Image from 'next/image'
 export default function SwiperComponent() {
   return (
     <div>
-
+      {/* <iframe 
+        width="100%"
+        height="350"    
+        src="data:text/html;charset=utf-8,
+        <head><base target='_blank' /></head>
+        <body><script src='https://gist.github.com/Adamhunter108/e90604e4c97ef01a1bd6e497bf333eca.js'></script>
+        </body>">
+      </iframe> */}
       <div className="px-5 lg:px-72 flex justify-center">
         <Swiper
           spaceBetween={30}
