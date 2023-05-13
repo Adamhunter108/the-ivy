@@ -12,6 +12,7 @@ import CalDisclosure from '../components/CalDisclosure'
 import LandingModal from '../components/LandingModal'
 import FlyerDisplay from '../components/FlyerDisplay'
 import GiftCards from '../components/GiftCards'
+import Contact from '../components/Contact'
 import { EmblaCarousel } from '../components/Carousel/Carousel'
 import { ScrollToTop } from '../components/ScrollToTop'
 
@@ -47,6 +48,7 @@ export default function Home() {
         <CalDisclosure />
         <ThreeColCard />
         <Subscribe /> 
+        <Contact />
       </main>
       <Footer />
     </div>

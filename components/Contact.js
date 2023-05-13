@@ -28,7 +28,7 @@ export default function Contact() {
                             autoComplete="name"
                             required
                             className="w-full text-black border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-green-700 focus:ring-white rounded-md"
-                            placeholder="Your Name"
+                            placeholder="Name"
                         />
                     </div>
 
@@ -43,7 +43,7 @@ export default function Contact() {
                             autoComplete="email"
                             required
                             className="w-full text-black border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-green-700 focus:ring-white rounded-md"
-                            placeholder="Enter your email"
+                            placeholder="Email"
                         />
                     </div>
 
@@ -71,7 +71,7 @@ export default function Contact() {
                             type="text"
                             required
                             className="w-full text-black border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-green-700 focus:ring-white rounded-md"
-                            placeholder="Message to The Ivy"
+                            placeholder="Dear The Ivy,"
                             rows={3}
                         />
                     </div>
@@ -86,7 +86,6 @@ export default function Contact() {
                 </form>
             </div>
         </div>
-
 
     </div>
   )
