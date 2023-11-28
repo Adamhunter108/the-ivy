@@ -49,7 +49,7 @@ export default function Home() {
         <div className="pt-10">
           <EmblaCarousel />
         </div>
-        {/* <FlyerDisplay /> */}
+        <FlyerDisplay />
         {/* <GiftCards /> */}
         <CalDisclosure />
         <ThreeColCard />

@@ -80,7 +80,7 @@ export default function CalDisclosure() {
                   <Disclosure.Panel as="dd" className="mt-2">
                     {/* <JuneCalendar /> */}
                     <p className="text-center text-5xl lg:text-7xl font-hurricane animate-bounce">
-                      Sept & Oct coming soon
+                      new calendar coming soon!
                     </p>
                   </Disclosure.Panel>
                 </>
