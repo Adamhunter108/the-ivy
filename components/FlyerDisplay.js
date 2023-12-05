@@ -63,7 +63,11 @@ export default function FlyerDisplay() {
             />
           </div>
         </div> */}
-
+        <div className="flex justify-center">
+          <p className="text-gray-800 text-md font-thin">
+            See all events below
+          </p>
+        </div>
         <div className="max-w-lg mx-auto grid gap-10 lg:grid-cols-3 lg:max-w-none pl-2 justify-center items-center justify-items-center place-items-center">
           <div>
             <div className="flex justify-center mb-6">
@@ -75,7 +79,7 @@ export default function FlyerDisplay() {
               >
                 <button
                   type="button"
-                  className="z-50 px-3.5 mt-8 py-2 bg-gradient-to-b from-neon-pink via-neon-pink to-pink-400 text-white hover:bg-gradient-to-t from-neon-pink via-neon-pink to-pink-400 hover:text-white font-light rounded-md text-lg flex flex-row items-center"
+                  className="z-30 px-3.5 mt-8 py-2 bg-gradient-to-b from-neon-pink via-neon-pink to-pink-400 text-white hover:bg-gradient-to-t from-neon-pink via-neon-pink to-pink-400 hover:text-white font-light rounded-md text-lg flex flex-row items-center"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +125,7 @@ export default function FlyerDisplay() {
               >
                 <button
                   type="button"
-                  className="z-50 px-3.5 mt-8 py-2 bg-gradient-to-b from-neon-pink via-neon-pink to-pink-400 text-white hover:bg-gradient-to-t from-neon-pink via-neon-pink to-pink-400 hover:text-white font-light rounded-md text-lg flex flex-row items-center"
+                  className="z-30 px-3.5 mt-8 py-2 bg-gradient-to-b from-neon-pink via-neon-pink to-pink-400 text-white hover:bg-gradient-to-t from-neon-pink via-neon-pink to-pink-400 hover:text-white font-light rounded-md text-lg flex flex-row items-center"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +172,7 @@ export default function FlyerDisplay() {
               >
                 <button
                   type="button"
-                  className="z-50 px-3.5 mt-8 py-2 bg-gradient-to-b from-neon-pink via-neon-pink to-pink-400 text-white hover:bg-gradient-to-t from-neon-pink via-neon-pink to-pink-400 hover:text-white font-light rounded-md text-lg flex flex-row items-center"
+                  className="z-30 px-3.5 mt-8 py-2 bg-gradient-to-b from-neon-pink via-neon-pink to-pink-400 text-white hover:bg-gradient-to-t from-neon-pink via-neon-pink to-pink-400 hover:text-white font-light rounded-md text-lg flex flex-row items-center"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -21,9 +21,9 @@ export default function CalDisclosure() {
           </h2>
           <div className="flex justify-center -mb-10">
             <Image
-              src="/images/the-ivy.png"
+              src="/images/theivy-black.png"
               width={140}
-              height={100}
+              height={140}
               alt="logo"
             />
           </div>

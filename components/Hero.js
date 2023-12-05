@@ -33,18 +33,18 @@ export default function Hero() {
           <div className="items-center flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               {/* <div className="hover:scale-125 ease-in-out duration-200"> */}
-              <div data-aos="fade-up" data-aos-delay="300" className="">
+              <div data-aos="fade-up" data-aos-delay="300" className="mb-2">
                 <Image
-                  src="/images/the-ivy-neon.png"
-                  width={350}
-                  height={300}
+                  src="/images/theivycolorlogo.png"
+                  width={325}
+                  height={325}
                   alt="The Ivy"
                   blurDataURL="/images/the-ivy-neon.png"
                   placeholder="blur"
                   priority
                 />
               </div>
-              <div className="py-5 px-1 bg-neon-pink/80 rounded-2xl sm:py-10 sm:px-10 lg:p-10 lg:items-center">
+              <div className="py-3 px-1 bg-neon-pink/80 rounded-2xl sm:py-10 sm:px-10 lg:p-5 lg:items-center">
                 <p className="text-white text-xl lg:text-3xl font-thin">
                   The Ivy on Beech Street, in the heart of Long Beach, NY
                   carries unique clothing and home goods. We also create and
