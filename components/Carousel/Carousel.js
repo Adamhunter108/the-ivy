@@ -32,18 +32,6 @@ const images = [
     id: 7,
     src: "/images/carousel/7.jpg",
   },
-  {
-    id: 8,
-    src: "/images/carousel/insideshop1.jpg",
-  },
-  {
-    id: 9,
-    src: "/images/carousel/insideshop2.jpg",
-  },
-  {
-    id: 10,
-    src: "/images/carousel/insideshop3.jpg",
-  },
 ];
 
 export const EmblaCarousel = () => {
