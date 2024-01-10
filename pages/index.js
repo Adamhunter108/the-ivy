@@ -52,7 +52,7 @@ export default function Home() {
         </div>
         {/* <FlyerDisplay /> */}
         {/* <GiftCards /> */}
-        {/* <YouTubeEmbed /> */}
+        <YouTubeEmbed />
         <CalDisclosure />
         <ThreeColCard />
         <Subscribe />
