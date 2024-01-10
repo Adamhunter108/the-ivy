@@ -7,8 +7,8 @@ import GoogleMap from "./BetterGoogleMap";
 const navigation = {
   social: [
     // {
-    //   name: 'Facebook',
-    //   href: '#',
+    //   name: "Facebook",
+    //   href: "#",
     //   icon: (props) => (
     //     <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
     //       <path
@@ -47,6 +47,7 @@ const navigation = {
 export default function Footer() {
   return (
     <footer
+      id="footer"
       className="bg-white inset-x-0 bottom-0"
       aria-labelledby="footer-heading"
     >
@@ -59,7 +60,8 @@ export default function Footer() {
           <div className="space-y-1 xl:col-span-1">
             <div className="">
               <Image
-                src="/images/theivy-black.png"
+                // src="/images/theivy-black.png"
+                src="/images/theivycolorlogo.png"
                 width={100}
                 height={100}
                 alt="The Ivy"
@@ -69,7 +71,7 @@ export default function Footer() {
               Long Beach, NY&apos;s Premier Art / Event Space and Retail
               Experience.
             </p>
-            <p className="text-gray-500 hover:text-neon-pink text-sm pt-3">
+            <p className="text-gray-700 hover:text-neon-pink text-sm pt-3">
               <a
                 href="https://www.google.com/maps/place/1050+W+Beech+St,+Long+Beach,+NY+11561/@40.5859092,-73.7007764,17z/data=!3m1!4b1!4m5!3m4!1s0x89c26f82cd6cd909:0x324867bc794e1c9b!8m2!3d40.5859092!4d-73.6985877"
                 target="_blank"
@@ -78,11 +80,11 @@ export default function Footer() {
                 1050 W Beech St, Long Beach, NY 11561
               </a>
             </p>
-            <p className="pt-1 text-gray-500 hover:text-neon-pink text-sm">
+            <p className="pt-1 text-gray-700 hover:text-neon-pink text-sm">
               <a href="tel:516-882-4542">(516) 882-4542</a>
             </p>
-            <p className="pt-1 text-gray-500 hover:text-neon-pink text-sm">
-              {/* <a href="mailto:info@theivylbny.com">info@theivylbny.com</a> */}
+            <p className="pt-1 text-gray-700 hover:text-neon-pink text-sm">
+              <a href="mailto:hello@theivylbny.com">hello@theivylbny.com</a>
             </p>
 
             <div className="flex space-x-2 md:space-x-4 lg:space-x-6 pt-2">
@@ -90,7 +92,7 @@ export default function Footer() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-400 hover:text-neon-pink"
+                  className="text-gray-700 hover:text-neon-pink"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -113,12 +115,12 @@ export default function Footer() {
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8">
           <p className="text-sm text-gray-400 xl:text-center">
-            &copy; {new Date().getFullYear()} The Ivy, All rights reserved.
+            &copy; {new Date().getFullYear()} The Ivy LBNY, All rights reserved.
           </p>
           <p className="xl:text-center lg:text-left text-sm text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-cyan-600">
             Made with <span className="text-red-600">❤️</span> in NYC by{" "}
             <a
-              className="hover:text-black hover:font-bold"
+              className="hover:font-bold"
               href="https://www.whiterabbitdesign.studio/"
               target="_blank"
               rel="noreferrer"
