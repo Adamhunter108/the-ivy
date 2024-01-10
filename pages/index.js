@@ -13,6 +13,7 @@ import LandingModal from "../components/LandingModal";
 import FlyerDisplay from "../components/FlyerDisplay";
 import GiftCards from "../components/GiftCards";
 import Contact from "../components/Contact";
+import YouTubeEmbed from "../components/YouTubeEmbed";
 import { EmblaCarousel } from "../components/Carousel/Carousel";
 import { ScrollToTop } from "../components/ScrollToTop";
 
@@ -49,8 +50,9 @@ export default function Home() {
         <div className="pt-10">
           <EmblaCarousel />
         </div>
-        <FlyerDisplay />
+        {/* <FlyerDisplay /> */}
         {/* <GiftCards /> */}
+        {/* <YouTubeEmbed /> */}
         <CalDisclosure />
         <ThreeColCard />
         <Subscribe />
