@@ -63,13 +63,48 @@ export default function FlyerDisplay() {
             />
           </div>
         </div> */}
-        <div className="flex justify-center">
+
+        {/* <div className="flex justify-center">
           <p className="text-gray-800 text-md font-thin">
             See all events below
           </p>
+        </div> */}
+
+        {/* 2 flyers - no ticket links */}
+        <div className="flex flex-col sm:flex-row justify-center items-center sm:items-stretch space-y-4 sm:space-y-0 sm:space-x-12">
+          <div className="hover:scale-110 ease-in-out duration-200">
+            <Image
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="max-w-full h-auto rounded-xl"
+              src="/images/flyer-display/winterspecials.jpg"
+              height={450}
+              width={350}
+              alt="Flyer 1"
+              blurDataURL="/images/flyer-display/winterspecials.jpg"
+              placeholder="blur"
+              loading="lazy"
+            />
+          </div>
+          <div className="hover:scale-110 ease-in-out duration-200">
+            <Image
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="max-w-full h-auto rounded-xl"
+              src="/images/flyer-display/playfuldoodlepartyplanner.jpg"
+              height={450}
+              width={350}
+              alt="Flyer 2"
+              blurDataURL="/images/flyer-display/playfuldoodlepartyplanner.jpg"
+              placeholder="blur"
+              loading="lazy"
+            />
+          </div>
         </div>
+
+        {/* 3 flyers with ticket links */}
         <div className="max-w-lg mx-auto grid gap-10 lg:grid-cols-3 lg:max-w-none pl-2 justify-center items-center justify-items-center place-items-center">
-          <div>
+          {/* <div>
             <div className="flex justify-center mb-6">
               <a
                 href="https://square.link/u/imlZIIkA?src=sheet"
@@ -207,12 +242,13 @@ export default function FlyerDisplay() {
                 loading="lazy"
               />
             </div>
-          </div>
+          </div> */}
 
           {/* lg:col-start-2 centers the fourth image */}
           {/* <div className="hover:scale-110 ease-in-out duration-200 lg:col-start-2">
             <Image
-              data-aos="fade-up" data-aos-delay="400"
+              data-aos="fade-up"
+              data-aos-delay="400"
               className="max-w-full h-auto rounded-xl"
               src="/images/flyer-display/craftmenu.jpeg"
               height={450}
