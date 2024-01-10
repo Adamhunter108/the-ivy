@@ -44,12 +44,25 @@ export default function Hero() {
                   priority
                 />
               </div>
-              <div className="py-3 px-1 bg-neon-pink/80 rounded-2xl sm:py-10 sm:px-10 lg:p-5 lg:items-center">
-                <p className="text-white text-xl lg:text-3xl font-thin">
-                  The Ivy on Beech Street, in the heart of Long Beach, NY
-                  carries unique clothing and home goods. We also create and
-                  curate DIY art classes and creative workshops featuring
-                  various unique crafts.
+              <div className="py-3 px-1 bg-neon-pink/90 rounded-2xl sm:py-10 sm:px-10 lg:p-5 lg:items-center">
+                <p className="text-white text-lg lg:text-xl font-extralight">
+                  We are The Ivy on Beech Street. A Funky, Fun and Unique Gift
+                  Shop in the Heart of Long Beach, NY! We also specialize in
+                  Craft Classes, Creative Workshops, Private Events and Birthday
+                  Parties!
+                </p>
+                <p className="text-white text-lg lg:text-xl font-extralight pt-2">
+                  The Ivy is a place to disconnect from life&apos;s daily
+                  struggles into a calming vibe with your creative spirit. We
+                  love collaborating with other companies, brands and small
+                  businesses. So if you wanna connect - please send us an{" "}
+                  <a
+                    href="mailto:hello@theivylbny.com"
+                    className="text-green-400 hover:text-green-760 hover:font-medium"
+                  >
+                    email
+                  </a>{" "}
+                  to reach out! We look forward to seeing you soon.
                 </p>
               </div>
 
