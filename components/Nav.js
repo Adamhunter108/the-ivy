@@ -91,7 +91,6 @@ export default function Nav() {
 
                     <Link href="#footer">
                       <a
-                        // className="text-neon-pink hover:bg-gradient-to-b from-neon-pink via-neon-pink to-pink-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                         className={classNames(
                           scrollPosition > 0
                             ? "text-neon-pink"
