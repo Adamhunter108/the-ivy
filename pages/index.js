@@ -51,11 +51,11 @@ export default function Home() {
         <div className="pt-10">
           <EmblaCarousel />
         </div>
-        <FlyerDisplay />
+        <EventFlyers />
         {/* <GiftCards /> */}
         <YouTubeEmbed />
         {/* <CalDisclosure /> */}
-        <EventFlyers />
+        <FlyerDisplay />
         <ThreeColCard />
         <Subscribe />
         {/* <Contact /> */}
