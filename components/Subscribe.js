@@ -64,17 +64,12 @@ export default function Subscribe() {
   };
 
   return (
-    <div
-      className="bg-center bg-cover bg-fixed"
-      style={{
-        backgroundImage: "url('/images/ivy-bg-16x80.jpg')",
-      }}
-    >
-      {/* <span
-              id="blackOverlay"
-              className="w-full h-full absolute opacity-20 bg-black"
-            ></span> */}
-      <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
+    <div className="relative bg-cover bg-center bg-fixed bg-[#fe68c3] md:bg-[url('/images/ivy-bg-16x80.jpg')] lg:bg-[url('/images/ivy-bg-16x80.jpg')] pt-12 pb-8 px-4 sm:px-6 lg:pt-26 lg:pb-26 lg:px-8">
+      <div className="absolute top-0 left-0 right-0 bottom-0">
+        <div className="hidden md:block lg:block absolute top-0 left-0 right-0 bottom-0 bg-black opacity-40"></div>
+      </div>
+
+      <div className="relative z-20 max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
         <div className="py-10 px-6 bg-neon-pink rounded-3xl sm:py-16 sm:px-12 lg:p-20 lg:flex lg:items-center">
           <div className="lg:w-0 lg:flex-1">
             <h2 className="text-4xl font-thin tracking-tight text-white">

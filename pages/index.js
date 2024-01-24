@@ -11,6 +11,7 @@ import ThreeColCard from "../components/ThreeColCard";
 import CalDisclosure from "../components/CalDisclosure";
 import LandingModal from "../components/LandingModal";
 import FlyerDisplay from "../components/FlyerDisplay";
+import EventFlyers from "../components/EventFlyers";
 import GiftCards from "../components/GiftCards";
 import Contact from "../components/Contact";
 import YouTubeEmbed from "../components/YouTubeEmbed";
@@ -53,7 +54,8 @@ export default function Home() {
         <FlyerDisplay />
         {/* <GiftCards /> */}
         <YouTubeEmbed />
-        <CalDisclosure />
+        {/* <CalDisclosure /> */}
+        <EventFlyers />
         <ThreeColCard />
         <Subscribe />
         {/* <Contact /> */}
