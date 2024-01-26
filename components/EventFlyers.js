@@ -107,11 +107,11 @@ export default function EventFlyers() {
                 data-aos="fade-up"
                 data-aos-delay="300"
                 className="max-w-full h-auto rounded-xl"
-                src="/images/flyer-display/1-31-24.png"
+                src="/images/flyer-display/1-31-24-v2.jpg"
                 height={450}
                 width={350}
                 alt="Flyer 2"
-                blurDataURL="/images/flyer-display/1-31-24.png"
+                blurDataURL="/images/flyer-display/1-31-24-v2.jpg"
                 placeholder="blur"
                 loading="lazy"
               />
