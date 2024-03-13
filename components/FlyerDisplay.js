@@ -80,11 +80,11 @@ export default function FlyerDisplay() {
               data-aos="fade-up"
               data-aos-delay="200"
               className="max-w-full h-auto rounded-xl"
-              src="/images/flyer-display/winterspecials.jpg"
+              src="/images/flyer-display/girl-scout-flyer.jpg"
               height={450}
-              width={350}
+              width={450}
               alt="Flyer 1"
-              blurDataURL="/images/flyer-display/winterspecials.jpg"
+              blurDataURL="/images/flyer-display/girl-scout-flyer.jpg"
               placeholder="blur"
               loading="lazy"
             />
