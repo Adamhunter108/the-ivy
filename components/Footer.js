@@ -121,11 +121,11 @@ export default function Footer() {
             Made with <span className="text-red-600">❤️</span> in NYC by{" "}
             <a
               className="hover:font-bold"
-              href="https://www.whiterabbitdesign.studio/"
+              href="https://www.adamhunter.website"
               target="_blank"
               rel="noreferrer"
             >
-              White Rabbit Design
+              Adam
             </a>
           </p>
         </div>
