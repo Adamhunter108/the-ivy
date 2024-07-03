@@ -35,7 +35,7 @@ export default function Hero() {
               {/* <div className="hover:scale-125 ease-in-out duration-200"> */}
               <div data-aos="fade-up" data-aos-delay="300" className="mb-2">
                 <Image
-                  src="/images/theivycolorlogo.png"
+                  src="/images/theivycolorlogo-circle.png"
                   width={325}
                   height={325}
                   alt="The Ivy"
