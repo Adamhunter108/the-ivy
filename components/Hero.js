@@ -57,8 +57,8 @@ export default function Hero() {
                   love collaborating with other companies, brands and small
                   businesses. So if you wanna connect - please send us an{" "}
                   <a
-                    href="mailto:hello@theivylbny.com"
-                    className="text-green-400 hover:text-green-760 hover:font-medium"
+                    href="mailto:theivylbny@gmail"
+                    className="text-green-400 hover:text-green-700"
                   >
                     email
                   </a>{" "}
