@@ -30,11 +30,11 @@ export default function FlyerDisplay() {
                 data-aos="fade-up"
                 data-aos-delay="200"
                 className="max-w-full h-auto rounded-xl"
-                src="/images/flyer-display/girl-scout-flyer.jpg"
+                src="/images/flyer-display/afterschoolclub.jpg"
                 height={450}
-                width={450}
+                width={350}
                 alt="Flyer 1"
-                blurDataURL="/images/flyer-display/girl-scout-flyer.jpg"
+                blurDataURL="/images/flyer-display/afterschoolclub.jpg"
                 placeholder="blur"
                 loading="lazy"
               />
@@ -47,11 +47,11 @@ export default function FlyerDisplay() {
                 data-aos="fade-up"
                 data-aos-delay="300"
                 className="max-w-full h-auto rounded-xl"
-                src="/images/flyer-display/playfuldoodlepartyplanner.jpg"
+                src="/images/flyer-display/girl-scout-flyer.jpg"
                 height={450}
                 width={450}
                 alt="Flyer 2"
-                blurDataURL="/images/flyer-display/playfuldoodlepartyplanner.jpg"
+                blurDataURL="/images/flyer-display/girl-scout-flyer.jpg"
                 placeholder="blur"
                 loading="lazy"
               />
@@ -64,11 +64,11 @@ export default function FlyerDisplay() {
                 data-aos="fade-up"
                 data-aos-delay="400"
                 className="max-w-full h-auto rounded-xl"
-                src="/images/flyer-display/mothersday.png"
+                src="/images/flyer-display/playfuldoodlepartyplanner.jpg"
                 height={450}
                 width={450}
                 alt="Flyer 3"
-                blurDataURL="/images/flyer-display/mothersday.png"
+                blurDataURL="/images/flyer-display/playfuldoodlepartyplanner.jpg"
                 placeholder="blur"
                 loading="lazy"
               />
