@@ -41,9 +41,7 @@ export default function Home() {
           key="ogimage"
         />
       </Head>
-      {/* <LandingModal 
-        image='/images/landing-modal/artsandcarafes.jpg'
-      /> */}
+      {/* <LandingModal image="/images/landing-modal/artsandcarafes.jpg" /> */}
       <Nav />
       <ScrollToTop />
       <main>
