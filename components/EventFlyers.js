@@ -165,10 +165,10 @@ export default function EventFlyers() {
             </div>
           </div>
 
-          {/* <div>
+          <div>
             <div className="flex justify-center mb-6">
               <a
-                href="https://square.link/u/OlvsNEO0"
+                href="https://square.link/u/NIYBI0Hh"
                 target="_blank"
                 rel="noreferrer"
                 className="flex flex-row"
@@ -191,7 +191,7 @@ export default function EventFlyers() {
                       d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z"
                     />
                   </svg>
-                  <div className="pl-3">Costume & Craft Party</div>
+                  <div className="pl-3">GID Ceramic Paint Night</div>
                 </button>
               </a>
             </div>
@@ -201,17 +201,18 @@ export default function EventFlyers() {
                 data-aos="fade-up"
                 data-aos-delay="300"
                 className="max-w-full h-auto rounded-xl"
-                src="/images/flyer-display/10-27-24.jpg"
+                src="/images/flyer-display/10-30-24.jpg"
                 height={450}
-                width={450}
+                width={350}
                 alt="Flyer 2"
-                blurDataURL="/images/flyer-display/10-27-24.jpg"
+                blurDataURL="/images/flyer-display/10-30-24.jpg"
                 placeholder="blur"
                 loading="lazy"
               />
             </div>
           </div>
-          <div>
+
+          {/* <div>
             <div className="flex justify-center mb-6">
               <a
                 href="https://square.link/u/WYgrieCK"
