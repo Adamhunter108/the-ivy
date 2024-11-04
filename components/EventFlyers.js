@@ -24,9 +24,9 @@ export default function EventFlyers() {
       </div>
 
       {/* 1 (only) flyer */}
-      {/* <div className="flex justify-center mb-6">
+      <div className="flex justify-center mb-6">
         <a
-          href="https://square.link/u/ZWCITbIt"
+          href="https://square.link/u/bp68aDIO"
           target="_blank"
           rel="noreferrer"
           className="flex flex-row"
@@ -49,7 +49,7 @@ export default function EventFlyers() {
                 d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z"
               />
             </svg>
-            <div className="pl-3">New Moon Vision Board</div>
+            <div className="pl-3">Elevate & Create</div>
           </button>
         </a>
       </div>
@@ -59,20 +59,20 @@ export default function EventFlyers() {
           data-aos="fade-up"
           data-aos-delay="400"
           className="max-w-full h-auto rounded-xl"
-          src="/images/flyer-display/10-18-24.jpg"
+          src="/images/flyer-display/11-15-24.jpg"
           height={450}
           width={350}
           alt="Flyer 3"
-          blurDataURL="/images/flyer-display/10-18-24.jpg"
+          blurDataURL="/images/flyer-display/11-15-24.jpg"
           placeholder="blur"
           loading="lazy"
         />
-      </div> */}
+      </div>
 
       <div className="relative max-w-7xl mx-auto">
         {/* 3 flyers with ticket links: change back to lg:grid-cols-3 (for two flyers: lg:grid-cols-2, 1 for 1) */}
         <div className="max-w-lg mx-auto grid gap-10 lg:grid-cols-2 lg:max-w-none pl-2 justify-center items-center justify-items-center place-items-center mt-3">
-          <div>
+          {/* <div>
             <div className="flex justify-center mb-6">
               <a
                 href="https://square.link/u/ZWCITbIt"
@@ -257,7 +257,7 @@ export default function EventFlyers() {
                 loading="lazy"
               />
             </div>
-          </div>
+          </div> */}
 
           {/* <div>
             <div className="flex justify-center mb-6">
