@@ -37,7 +37,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://www.theivylbny.com/images/the-ivy-neon.png"
+          content="https://www.theivylbny.com/images/theivycolorlogo-circle.png"
           key="ogimage"
         />
       </Head>

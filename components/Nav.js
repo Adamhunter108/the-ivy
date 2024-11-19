@@ -75,7 +75,7 @@ export default function Nav() {
                       </a>
                     </Link>
 
-                    <Link href="#events">
+                    <Link href="/#events">
                       <a
                         // className="text-neon-pink hover:bg-gradient-to-b from-neon-pink via-neon-pink to-pink-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                         className={classNames(
@@ -89,7 +89,7 @@ export default function Nav() {
                       </a>
                     </Link>
 
-                    <Link href="#footer">
+                    <Link href="/about">
                       <a
                         className={classNames(
                           scrollPosition > 0
@@ -98,7 +98,7 @@ export default function Nav() {
                           "hover:bg-gradient-to-b from-neon-pink via-neon-pink to-pink-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                         )}
                       >
-                        Contact
+                        About
                       </a>
                     </Link>
 
