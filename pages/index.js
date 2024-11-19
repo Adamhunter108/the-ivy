@@ -35,11 +35,11 @@ export default function Home() {
           name="description"
           content="The Ivy is a premier art / event space and retail experience in Long Beach, New York."
         />
-        <meta
+        {/* <meta
           property="og:image"
           content="https://www.theivylbny.com/images/theivycolorlogo-circle.png"
           key="ogimage"
-        />
+        /> */}
       </Head>
       {/* <LandingModal image="/images/landing-modal/artsandcarafes.jpg" /> */}
       <Nav />

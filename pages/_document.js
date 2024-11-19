@@ -23,7 +23,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://www.theivylbny.com/images/theivycolorlogo-og.png"
+          content="https://www.theivylbny.com/images/theivycolorlogo-circle.png"
           key="ogimage"
         />
         <meta property="og:type" content="website" />

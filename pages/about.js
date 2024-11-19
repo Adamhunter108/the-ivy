@@ -21,11 +21,11 @@ export default function About() {
       <Head>
         <title>The Ivy LBNY</title>
         <meta name="description" content="About The Ivy LBNY" />
-        <meta
+        {/* <meta
           property="og:image"
           content="https://www.theivylbny.com/images/theivycolorlogo-circle.png"
           key="ogimage"
-        />
+        /> */}
       </Head>
       <Nav />
       {/* HERO */}
