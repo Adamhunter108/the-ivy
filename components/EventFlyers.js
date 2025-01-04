@@ -28,21 +28,21 @@ export default function EventFlyers() {
   return (
     <div
       id="events"
-      className="relative bg-cover bg-center bg-fixed bg-[#fe68c3] md:bg-[url('/images/ivy-bg-16x80.jpg')] lg:bg-[url('/images/ivy-bg-16x80.jpg')] pt-12 mt-10 pb-8 px-4 sm:px-6 lg:pt-26 lg:pb-26 lg:px-8"
+      className="relative bg-cover bg-center bg-fixed bg-[#fe68c3] md:bg-[url('/images/ivy-bg-16x80.jpg')] lg:bg-[url('/images/ivy-bg-16x80.jpg')] pt-12 mt-2 pb-8 px-4 sm:px-6 lg:pt-26 lg:pb-26 lg:px-8"
     >
       <div className="hidden md:block lg:block absolute top-0 left-0 right-0 bottom-0 bg-black opacity-40"></div>
       <div className="absolute inset-0">
         <div className="bg-white h-1/3 sm:h-2/3" />
       </div>
 
-      <div className="flex flex-wrap justify-center mb-6 space-x-12">
+      <div className="mt-8 flex flex-wrap justify-center mb-6 md:space-x-12">
         {events.map((event, index) => (
           <div key={index} className="flex flex-col items-center mb-6">
             <a
               href={event.ticketLink}
               target="_blank"
               rel="noreferrer"
-              className="flex flex-col items-center"
+              className="flex flex-col items-center drop-shadow-lg"
             >
               <Image
                 src={event.imagePath}
