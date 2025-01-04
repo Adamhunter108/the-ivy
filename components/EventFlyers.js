@@ -5,14 +5,14 @@ import "aos/dist/aos.css";
 
 const events = [
   {
-    imagePath: "/images/flyer-display/1-18-25.jpg",
-    ticketLink: "https://square.link/u/VGDpL1tU",
-    ticketTitle: "Paint Night: The Poof",
-  },
-  {
     imagePath: "/images/flyer-display/1-21-25.jpg",
     ticketLink: "https://square.link/u/cBNFTRw2",
     ticketTitle: "Sip N Paint @ Bright Eye",
+  },
+  {
+    imagePath: "/images/flyer-display/1-18-25.jpg",
+    ticketLink: "https://square.link/u/VGDpL1tU",
+    ticketTitle: "Paint Night: The Poof",
   },
 ];
 
@@ -35,7 +35,7 @@ export default function EventFlyers() {
         <div className="bg-white h-1/3 sm:h-2/3" />
       </div>
 
-      <div className="mt-8 flex flex-wrap justify-center mb-6 md:space-x-12">
+      <div className="mt-8 flex flex-wrap justify-center mb-6 md:space-x-12 space-y-4 md:space-y-0">
         {events.map((event, index) => (
           <div key={index} className="flex flex-col items-center mb-6">
             <a
