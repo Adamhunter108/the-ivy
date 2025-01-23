@@ -64,11 +64,11 @@ export default function FlyerDisplay() {
                 data-aos="fade-up"
                 data-aos-delay="400"
                 className="max-w-full h-auto rounded-xl"
-                src="/images/flyer-display/kids-party-flyer-2025.jpg"
+                src="/images/flyer-display/kids-party-flyer.jpg"
                 height={450}
-                width={350}
+                width={450}
                 alt="Flyer 3"
-                blurDataURL="/images/flyer-display/kids-party-flyer-2025.jpg"
+                blurDataURL="/images/flyer-display/kids-party-flyer.jpg"
                 placeholder="blur"
                 loading="lazy"
               />
