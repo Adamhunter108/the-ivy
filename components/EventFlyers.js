@@ -44,13 +44,15 @@ export default function EventFlyers() {
               rel="noreferrer"
               className="flex flex-col items-center drop-shadow-lg"
             >
-              <Image
-                src={event.imagePath}
-                alt={`${event.ticketTitle} Flyer`}
-                width={400}
-                height={400}
-                className="rounded-md"
-              />
+              <div className="hover:scale-110 ease-in-out duration-300 transform">
+                <Image
+                  src={event.imagePath}
+                  alt={`${event.ticketTitle} Flyer`}
+                  width={400}
+                  height={400}
+                  className="rounded-md"
+                />
+              </div>
               <button
                 type="button"
                 className="z-30 px-3.5 mt-4 py-2 bg-gradient-to-b from-neon-pink via-neon-pink to-pink-400 text-white hover:bg-gradient-to-t from-neon-pink via-neon-pink to-pink-400 hover:text-white font-light rounded-md text-lg flex flex-row items-center"
