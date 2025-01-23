@@ -5,14 +5,14 @@ import "aos/dist/aos.css";
 
 const events = [
   {
-    imagePath: "/images/flyer-display/1-21-25.jpg",
-    ticketLink: "https://square.link/u/cBNFTRw2",
-    ticketTitle: "Sip N Paint @ Bright Eye",
+    imagePath: "/images/flyer-display/2-21-25.jpg",
+    ticketLink: "https://square.link/u/ZWCITbIt",
+    ticketTitle: "Vision Board & Tarot",
   },
   {
-    imagePath: "/images/flyer-display/1-18-25.jpg",
-    ticketLink: "https://square.link/u/VGDpL1tU",
-    ticketTitle: "Paint Night: The Poof",
+    imagePath: "/images/flyer-display/2-26-25.jpg",
+    ticketLink: "https://square.link/u/TkuTB28x",
+    ticketTitle: "Meeting Of The Minds",
   },
 ];
 
