@@ -10,7 +10,7 @@ const events = [
     ticketTitle: "Vision Board & Tarot",
   },
   {
-    imagePath: "/images/flyer-display/2-26-25.jpg",
+    imagePath: "/images/flyer-display/2-27-25.jpg",
     ticketLink: "https://square.link/u/TkuTB28x",
     ticketTitle: "Meeting Of The Minds",
   },
