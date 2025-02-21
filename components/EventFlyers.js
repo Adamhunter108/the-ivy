@@ -19,6 +19,11 @@ const events = [
     ticketLink: "https://square.link/u/TkuTB28x",
     ticketTitle: "Meeting Of The Minds",
   },
+  {
+    imagePath: "/images/flyer-display/3-22-25.jpg",
+    ticketLink: "https://square.link/u/TzGE8Knw",
+    ticketTitle: "Craft Bash Spectacular",
+  },
 ];
 
 export default function EventFlyers() {
